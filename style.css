@@ -1322,6 +1322,7 @@ and (max-width : 431px) {
 
     .hat{
         gap: 3vh;
+        
     }
 
     .hat a{
@@ -1375,11 +1376,13 @@ and (max-width : 431px) {
     }
 
     .hat_desktop{
+        align-items: center;
+        justify-items: center;
         margin-top: 5vh;
         width: 43vh;
         height: auto;
         position: relative;
-        left: 3vh;
+        left: 4vh;
         bottom: 85vh;
         border-radius: 3%; 
     }
@@ -1585,7 +1588,12 @@ and (max-width : 431px) {
 
     .right_spisok_fourth_page{
         position: relative;
-        right: 15vh;
+        right: 10vh;
+        width: 29vh;
+    }
+
+    .con6_fourth_page, .con5_fourth_page, .con4_fourth_page {
+        margin-right: 1vh;
     }
 
     .con2_fourth_page, .con3_fourth_page{
@@ -1602,10 +1610,10 @@ and (max-width : 431px) {
     }
 
     .fifth_page{
-        padding-bottom: 20vh;
+        padding-bottom: 0;
+        height: 15vh;
         position: relative;
-        top: 40vh;
-
+        top: 20vh;
     }
 
     .fifth_page h2{
@@ -1616,7 +1624,7 @@ and (max-width : 431px) {
         display: flex;
         margin-left: 3vh;
         position: relative;
-        bottom: 22vh;
+        bottom: 30vh;
     }
 
     .fifth_page h3{
@@ -1783,7 +1791,7 @@ img.ImgFifth_page{
     }
 
     div.sixth_page{
-        margin-top: 70vh;
+        margin-top: 50vh;
         padding-bottom: 0vh;
         height: 58vh;
     }
@@ -1798,7 +1806,7 @@ img.ImgFifth_page{
         font-size: 7vh;
         background-color: #741105;
         position: relative;
-        top: 15vh;
+        top: 0;
         padding-left: 0;
         padding-right: 0;
     }
@@ -1813,7 +1821,7 @@ img.ImgFifth_page{
         font-size: 2vh;
         background-color: #741105;
         position: relative;
-        top: 9vh;
+        top: 0vh;
         padding-left: 0;
         padding-right: 0;
     }
@@ -1825,9 +1833,9 @@ img.ImgFifth_page{
         justify-content: center;
         background-color: #741105;
         width: 105vw;
-        height: 200vw;
+        height: 100vw;
         position: relative;
-        top: 20vh;
+        top: 2vh;
     }
     
     div.soc_seti{
