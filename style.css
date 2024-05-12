@@ -1488,7 +1488,7 @@ and (max-width : 431px) {
         font-size: 1.2vh;
         background-color: #FBFBFB;
         border-radius: 3vh;
-        border: 3px solid #741105;
+        border: 1px solid #741105;
         padding-top: 1vh;
         place-items: center;
         width: 17vh;
@@ -1718,25 +1718,26 @@ img.ImgFifth_page{
         font-style: italic;
         font-size: 3vh;
         margin-top: 2vh;
-        margin-left: 15vh;
+        margin-left: 8vh;
     }
 
     button.button_buy{
-        background-color: #FBFBFB;
+        background-color: #741105;
         display: grid;
         place-items: center;
         width: 25vh;
         height: 3vh;
         border-radius: 3vh;
-        border: 3px solid #741105;
-        color: #741105;
+        color: #FBFBFB;
         font-family: "Montserrat", sans-serif;
         font-weight: 600;
         font-style: italic;
         font-size: 1.4vh;
         margin-top: 1vh;
         cursor: pointer;
-        transition: background-color 0.5s ease, color 0.5s ease
+        transition: background-color 0.5s ease, color 0.5s ease;
+        position: relative;
+        margin-left: 1vh;
     }
 
     div.mentoring{
@@ -1760,7 +1761,7 @@ img.ImgFifth_page{
         width: 30vh;
         height: 45vh;
         border-radius: 3vh;
-        border: 3px solid #741105;
+        border: 1px solid #741105;
         animation-play-state: paused;
     }
 
@@ -1778,7 +1779,7 @@ img.ImgFifth_page{
         width: 30vh;
         height: 27vh;
         border-radius: 3vh;
-        border: 3px solid #741105;
+        border: 1px solid #741105;
         animation-play-state: paused;
     }
 
